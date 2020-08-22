@@ -16,7 +16,7 @@ class PartySerializer(serializers.ModelSerializer):
 class DivisionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Division
-        fields = ('code','caption','is_Active','added_by','date_Created','last_Updated')
+        fields = ('code','caption','is_Active')
 
 class DistrictSerializer(serializers.ModelSerializer):
     class Meta:
